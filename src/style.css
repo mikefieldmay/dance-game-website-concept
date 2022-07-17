@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "MADE Soulmaze";
+  src: url("../static/MADESoulmaze.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MADE Soulmaze";
+}
+
+html {
+  background: #1e1a20;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.initialSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: rgba(109, 38, 216, 1);
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 20px 0;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.create {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  text-transform: uppercase;
+  font-size: 6vmin;
+  margin-left: 65%;
+  padding-right: 20px;
+}
+
+.play {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  text-transform: uppercase;
+  font-size: 4vmin;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  height: 66px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid black;
+}
+
+.app-store-button {
+  height: 50px;
+}
+
+.mochi-logo {
+  height: 50px;
+}
